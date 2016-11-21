@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodTracker</string>
+    <string name="back">Back</string>
+    <string name="meal_title">Meal Title</string>
+    <string name="meal_description">Meal Description</string>
+    <string name="submit_meal">Submit Meal</string>
+    <string name="add_meal">Add Meal</string>
+</resources>
