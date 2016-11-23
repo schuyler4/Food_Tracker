@@ -6,4 +6,5 @@
     <string name="submit_meal">Submit Meal</string>
     <string name="add_meal">Add Meal</string>
     <string name="warning_text">You Need to Fill out all the fields</string>
+    <string name="add_photo">Add Photo</string>
 </resources>
