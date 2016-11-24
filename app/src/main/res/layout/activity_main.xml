@@ -28,4 +28,14 @@
         android:backgroundTint="#bc5858"
         android:clickable="true" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/geroButton"
+        android:id="@+id/geroButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="geroButtonOnClick"/>
+
 </RelativeLayout>

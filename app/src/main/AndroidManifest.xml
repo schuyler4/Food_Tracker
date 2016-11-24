@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.marek.foodtracker">
 
-
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,13 +13,16 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
                 <uses-sdk android:minSdkVersion="15" />
-                <uses-permission android:name="android.permission.CAMERA"/>
-                <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+                <uses-permission android:name="android.permission.CAMERA" />
+                <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             </intent-filter>
         </activity>
-        <activity android:name=".addMealActivity"></activity>
-        <activity android:name=".MealView"></activity>
+        <activity android:name=".addMealActivity" />
+        <activity android:name=".MealView" />
+        <activity android:name=".geroscopeActivity"></activity>
     </application>
 
 </manifest>

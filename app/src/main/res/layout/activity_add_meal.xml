@@ -89,5 +89,13 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="43dp" />
 
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mealRating"
+        android:layout_alignTop="@+id/button"
+        android:layout_toRightOf="@+id/addPhotoButton"
+        android:layout_toEndOf="@+id/addPhotoButton" />
+
 
 </RelativeLayout>
